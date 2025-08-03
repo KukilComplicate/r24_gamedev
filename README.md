@@ -1,9 +1,15 @@
 # r24_gamedev
 
-needs raylib installed(mendatory)
+Needs raylib installed(mendatory)
 and browse the project files in the raylib installed directory
 
-copy the vscode folder from the raylib/raylib/ folder to wherever you want
+Copy the VSCode folder from the raylib/raylib/ folder to wherever you want and rename it Game.
 
-copy all the [source_code].cpp and the [header].h files provided by me, to the vscode folder
+Copy all the [source_code].cpp and the [header].h files provided by me, to the vscode folder.
 
+Delete the main.c file from the Game.
+
+Open main.code-workspace file to open vscode.
+need to chagne 
+CC = gcc to CC = g++
+and compile
