@@ -13,4 +13,8 @@ Open main.code-workspace file to open vscode.
 need to chagne 
 CC = gcc to CC = g++
 CC = clang to CC = clang++
+
+.vscode/task.json
+edit 
+"OBJS=${fileBasenameNoExtension}.c" to "OBJS=${fileBasenameNoExtension}.cpp" [Just add 'pp' after '.c'] 
 and compile
