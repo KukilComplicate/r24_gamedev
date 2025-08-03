@@ -10,11 +10,14 @@ Copy all the [source_code].cpp and the [header].h files provided by me, to the v
 Delete the main.c file from the Game.
 
 Open main.code-workspace file to open vscode.
-need to chagne 
+
+#Makefile 
+edit need to chagne 
 CC = gcc to CC = g++
 CC = clang to CC = clang++
 
-.vscode/task.json
+#task.json
+open .vscode/task.json
 edit 
 "OBJS=${fileBasenameNoExtension}.c" to "OBJS=${fileBasenameNoExtension}.cpp" [Just add 'pp' after '.c'] 
 and compile
