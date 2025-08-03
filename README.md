@@ -12,4 +12,5 @@ Delete the main.c file from the Game.
 Open main.code-workspace file to open vscode.
 need to chagne 
 CC = gcc to CC = g++
+CC = clang to CC = clang++
 and compile
